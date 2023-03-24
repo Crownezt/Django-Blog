@@ -61,4 +61,3 @@ class PostUpdateView(UpdateView):
     template_name = 'post/post_edit.html'
     fields = ['title', 'body']
 
-
